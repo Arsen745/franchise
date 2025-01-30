@@ -1,0 +1,25 @@
+.background {
+    background: url('../../../public/assets/header.png') no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.background .header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header .title {
+    color: white;
+    font-weight: 800;
+    font-size: 90px;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+.header .description {
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+    margin-top: 16px;
+}
+

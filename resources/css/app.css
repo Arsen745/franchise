@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Mazzard Soft M';
+    src: url('../fonts/MazzardSoftM-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Mazzard Soft M';
+    src: url('../fonts/MazzardSoftM-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Mazzard Soft M';
+    src: url('../fonts/MazzardSoftM-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Mazzard Soft M';
+    src: url('../fonts/MazzardSoftM-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Mazzard Soft M', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+

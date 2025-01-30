@@ -1,0 +1,48 @@
+section.partnership {
+    margin-top: 60px;
+}
+.partnership .title-partnership,
+.communication .title-communication {
+    color: #A2D23F;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.partnership .description-partnership-head {
+    color: #A60FAD;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.partnership .partnership-items,
+.communication .partnership-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+.partnership .partnership-items .left-partnership,
+.communication .partnership-items .left-partnership {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+}
+.partnership .partnership-items .left-partnership .item-partnership,
+.communication .partnership-items .left-partnership .item-partnership {
+    display: flex;
+    align-items: center;
+    max-width: 390px;
+    width: 100%;
+    gap: 30px
+}
+.partnership .partnership-items .left-partnership .item-partnership p,
+.communication .partnership-items .left-partnership .item-partnership p{
+    font-size: 26px;
+}
+.partnership .partnership-items .left-partnership .item-partnership img,
+.communication .partnership-items .left-partnership .item-partnership img{
+    width: 150px;
+}

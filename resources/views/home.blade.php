@@ -1,0 +1,18 @@
+@extends('layouts.layout')
+@section('client-content')
+    <div>
+        @include('components.nav')
+        @include('components.header')
+        @include('components.about')
+        @include('components.reasons')
+        @include('components.success')
+        @include('components.economy')
+        @include('components.marketing')
+        @include('components.corporate')
+        @include('components.format')
+        @include('components.partnership')
+    </div>
+@endsection
+@push('scripts')
+    @Vite(['resources/css/app.css'])
+@endpush

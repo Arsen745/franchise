@@ -1,0 +1,43 @@
+section.reasons {
+    margin-top: 87px;
+}
+.reasons .title {
+    color: #A60FAD;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.reasons .cards-reasons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.reasons .cards-reasons .card-reasons {
+    max-width: 330px;
+    position: relative;
+    height: 100%;
+    padding: 40px 30px;
+}
+.reasons .cards-reasons .card-reasons img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 250px;
+}
+.reasons .cards-reasons .card-reasons img.one {
+    width: 180px;
+}
+.reasons .cards-reasons .card-reasons img.four {
+    width: 280px;
+}
+.reasons .cards-reasons .card-reasons .title-card {
+    font-size: 37px;
+    line-height: 40px;
+    color: #A60FAD;
+    margin-bottom: 51px;
+}
+.reasons .cards-reasons .card-reasons .description {
+    font-size: 22px;
+}

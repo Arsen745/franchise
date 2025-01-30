@@ -1,0 +1,41 @@
+section.marketing {
+    margin-top: 60px;
+}
+.marketing .title {
+    color: #A2D23F;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.marketing .description {
+    color: #A60FAD;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+.marketing .items {
+    display: flex;
+    justify-content: space-between;
+}
+.marketing .items .left,
+.marketing .items .right {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.marketing .items .left .item,
+.marketing .items .right .item {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+ }
+.marketing .items .left .item h1,
+.marketing .items .right .item h1 {
+    color: #A60FAD;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
