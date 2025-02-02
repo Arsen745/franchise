@@ -36,6 +36,53 @@ section.format {
 section.finance {
     margin-top: 60px;
 }
+section.model {
+    margin-top: 60px;
+}
+.model h1.title-model {
+    color: #A2D23F;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.model .descriptions-model p {
+    font-size: 45px;
+    color: #A60FAD;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.model .descriptions-model h4.people {
+    font-size: 54px;
+    font-weight: 600;
+    color: #A2D23F;
+    margin-bottom: 30px;
+}
+.model .descriptions-model h4.people span {
+    color: #A60FAD;
+}
+.model .descriptions-model h4.title-table {
+    color: #A60FAD;
+    font-size: 45px;
+    font-weight: 600;
+}
+.model .table {
+    margin-top: 30px;
+    background: #A60FAD21;
+    border-radius: 50px;
+    padding: 40px 60px;
+}
+.model .table h2.table-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 45px;
+    color: #A60FAD;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.model .table h2.table-text span {
+    color: #A2D23F;
+}
 .finance .cards-finance {
     display: flex;
     justify-content: space-between;
@@ -54,4 +101,69 @@ section.finance {
 .finance .cards-finance .card-finance p {
     font-size: 25px;
     margin-top: 20px;
+}
+@media (max-width: 500px) {
+    section.format,
+    section.model {
+        margin-top: 11px;
+    }
+    .format .format-title,
+    .finance .title-finance,
+    .model h1.title-model {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .format .formats .format-card {
+        max-width: 100px;
+    }
+    .format .formats .format-card img {
+        max-width: 100px;
+        margin-bottom: 6px;
+    }
+    .format .formats .format-card .format-description h4 {
+        font-size: 8px;
+    }
+    .format .formats .format-card .format-description p {
+        font-size: 8px;
+    }
+    .model .descriptions-model p {
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .model .descriptions-model h4.people {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .model .descriptions-model h4.title-table {
+        font-size: 8px;
+    }
+    .model .table {
+        margin-top: 10px;
+        padding: 8px 12px;
+        border-radius: 10px;
+    }
+    .model .table h2.table-text {
+        font-size: 8px;
+    }
+    section.finance {
+        margin-top: 12px;
+    }
+    .finance .cards-finance .card-finance {
+        width: 100%;
+        border: 1px solid #A60FAD;
+        border-radius: 5px;
+        padding: 6px;
+    }
+    .finance .cards-finance {
+        justify-content: start;
+        gap: 5px;
+    }
+    .finance .cards-finance .card-finance h1 {
+        font-size: 9px;
+    }
+    .finance .cards-finance .card-finance p {
+        font-size: 7px;
+        margin-top: 7px;
+    }
+
 }

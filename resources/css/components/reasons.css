@@ -41,3 +41,37 @@ section.reasons {
 .reasons .cards-reasons .card-reasons .description {
     font-size: 22px;
 }
+@media (max-width: 500px) {
+    section.reasons {
+        margin-top: 13px;
+    }
+    .reasons .title {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .reasons .cards-reasons {
+        gap: 10px;
+    }
+    .reasons .cards-reasons .card-reasons {
+        max-width: 100px;
+        padding: 5px 8px;
+    }
+    .reasons .cards-reasons .card-reasons img {
+        width: 60px;
+    }
+    .reasons .cards-reasons .card-reasons img.one {
+        width: 40px;
+    }
+    .reasons .cards-reasons .card-reasons img.four {
+        width: 60px;
+    }
+    .reasons .cards-reasons .card-reasons .title-card {
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+    .reasons .cards-reasons .card-reasons .description {
+        font-size: 7px;
+    }
+}

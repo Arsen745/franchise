@@ -24,6 +24,23 @@
         </div>
     </div>
 </section>
+<section class="model container">
+    <h1 class="title-model">ФИНАНСОВАЯ МОДЕЛЬ</h1>
+    <div class="descriptions-model">
+        <p>На примере г. Новосибирск (с населением 1 600 000 человек) </p>
+        <h4 class="people">Расчётный оборот <span>2 500 000</span> руб./месяц</h4>
+        <h4 class="title-table">Ежемесячные расходы:</h4>
+    </div>
+    <div class="table">
+        <h2 class="table-text">Аренда <span>150000 руб.</span></h2>
+        <h2 class="table-text">Заработные платы сотрудников <span>200000 руб.</span></h2>
+        <h2 class="table-text">Обслуживание ОС и МБП <span>15000 руб.</span></h2>
+        <h2 class="table-text">Средства для уборки и гигиены<span> 15000 руб.</span></h2>
+        <h2 class="table-text">Канцелярские товары <span> 2000 руб.</span></h2>
+        <h2 class="table-text">Упаковка, салфетки и приборы <span> 30000 руб.</span></h2>
+        <h2 class="table-text">Налоги и соц. выплаты по сотрудникам <span> 70000 руб.</span></h2>
+    </div>
+</section>
 <section class="finance container">
     <h1 class="title-finance">ФИНАНСОВЫЕ  УСЛОВИЯ</h1>
     <div class="cards-finance">
