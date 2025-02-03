@@ -32,4 +32,29 @@ section.about {
     font-weight: 400;
     line-height: 30px;
 }
+@media (max-width: 500px) {
+    section.about {
+        margin-top: 11px;
+    }
+    .title h1 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .cards {
+        display: flex;
+        gap: 10px;
+    }
+    .cards .card {
+        padding: 5px;
+        gap: 24px;
+        border-radius: 5px;
+    }
+    .cards .card p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .cards .card img {
+        width: 52px;
+    }
+}
 

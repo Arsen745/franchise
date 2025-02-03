@@ -37,4 +37,22 @@ section.corporate {
     font-size: 40px;
     font-weight: 800;
 }
+@media (max-width: 500px) {
+    section.corporate {
+        margin-top: 15px;
+    }
+    .corporate .title {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .corporate .corporate-description {
+        margin-top: 14px;
+        padding: 13px;
+        border-radius: 6px;
+        border: 1px solid #A60FAD;
+    }
+    .corporate .corporate-description p {
+        font-size: 9px;
+    }
+}
 

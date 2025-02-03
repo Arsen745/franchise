@@ -11,6 +11,7 @@
         @include('components.corporate')
         @include('components.format')
         @include('components.partnership')
+        @include('components.footer')
     </div>
 @endsection
 @push('scripts')

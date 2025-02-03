@@ -37,5 +37,35 @@ section.marketing {
     font-size: 40px;
     font-weight: 800;
 }
+@media (max-width: 500px) {
+    section.marketing {
+        margin-top: 14px;
+    }
+    .marketing .title {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .marketing .description {
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+    .marketing .items .left,
+    .marketing .items .right {
+        gap: 20px;
+    }
+    .marketing .items .left .item,
+    .marketing .items .right .item {
+        gap: 6px;
+    }
+    .marketing .items .left .item img,
+    .marketing .items .right .item img {
+        width: 30px;
+    }
+    .marketing .items .left .item h1,
+    .marketing .items .right .item h1 {
+        font-size: 10px;
+    }
+
+}
 
 

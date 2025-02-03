@@ -30,3 +30,24 @@
     background: #A2D23F;
     border: 1px solid #A2D23F;
 }
+.nav .container .burger {
+    display: none;
+}
+@media (max-width: 500px) {
+    .nav {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+    }
+    .nav .container .burger {
+        display: block;
+        cursor: pointer;
+    }
+    .nav .container .nav-buttons {
+        display: none;
+    }
+    .nav .container {
+        padding: 15px 30px;
+    }
+}
+
