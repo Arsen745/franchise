@@ -1,4 +1,4 @@
-<section class="container reasons">
+<section class="container reasons" id="reasons">
     <h1 class="title">
         ПРИЧИНЫ ПОРАБОТАТЬ С НАМИ
     </h1>

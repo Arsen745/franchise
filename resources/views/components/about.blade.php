@@ -1,4 +1,4 @@
-<section class="container about">
+<section class="container about" id="about">
     <div class="title">
         <h1>О НАС</h1>
     </div>

@@ -47,23 +47,23 @@
         <div class="left-partnership">
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership1.png') }}" alt="">
-                <p class="description-partnership">Качественный <br>сервис</p>
+                <p class="description-partnership">Качественный<br>сервис</p>
             </div>
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership2.png') }}" alt="">
-                <p class="description-partnership">Вовлечение во <br>все процессы</p>
+                <p class="description-partnership">Вовлечение во<br>все процессы</p>
             </div>
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership3.png') }}" alt="">
-                <p class="description-partnership">Выполнение <br>планов продаж</p>
+                <p class="description-partnership">Выполнение<br>планов продаж</p>
             </div>
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership4.png') }}" alt="">
-                <p class="description-partnership">Своевременное <br>оформление заявок</p>
+                <p class="description-partnership">Своевременное<br>оформление заявок</p>
             </div>
         </div>
         <div class="right-partnership">
-            <img src="{{ asset('assets/partnership/main.png') }}" alt="">
+            <img src="{{ asset('assets/communication.png') }}" alt="">
         </div>
     </div>
 </section>

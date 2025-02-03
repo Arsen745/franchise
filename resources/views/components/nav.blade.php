@@ -4,8 +4,8 @@
             <a href="#"><img src="{{ asset('assets/logo.png') }}" alt=""></a>
         </div>
         <div class="nav-buttons">
-            <a href="">О нас</a>
-            <a href="">О преимуществах</a>
+            <a href="#about">О нас</a>
+            <a href="#reasons">О преимуществах</a>
             <a href="">Оставить заявку</a>
         </div>
         <div class="burger">
