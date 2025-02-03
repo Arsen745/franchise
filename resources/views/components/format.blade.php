@@ -11,15 +11,15 @@
         <div class="format-card">
             <img src="{{ asset('assets/format-image2.png') }}" alt="">
             <div class="format-description">
-                <h4>Фирменный магазин до 40м</h4>
-                <p>от 2,5 млн руб.</p>
+                <h4>Фирменный магазин до 60м</h4>
+                <p>от 5 млн руб.</p>
             </div>
         </div>
         <div class="format-card">
             <img src="{{ asset('assets/format-image3.png') }}" alt="">
             <div class="format-description">
-                <h4>Фирменный магазин до 40м</h4>
-                <p>от 2,5 млн руб.</p>
+                <h4>Фирменный магазин до 150м</h4>
+                <p>от 8 млн руб.</p>
             </div>
         </div>
     </div>

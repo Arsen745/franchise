@@ -1,6 +1,9 @@
 section.success {
     margin-top: 80px;
 }
+section.success.mobile {
+    display: none;
+}
 .success .title {
     font-size: 48px;
     font-weight: 800;
@@ -43,7 +46,7 @@ section.success {
     display: flex;
     justify-content: space-between;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-45%);
     top: 0;
     width: 130%;
 }
@@ -72,16 +75,17 @@ section.success {
     height: 300px;
 }
 .success .block1 .success-card {
-    max-width: 120px;
-    height: 220px;
+    max-width: 150px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 30px;
 }
 .success .block1 .success-card p {
     width: 100%;
     text-align: end;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #707070CC;
 }
@@ -91,10 +95,113 @@ section.success {
 @media (max-width: 500px) {
     section.success {
         margin-top: 20px;
+    }
+    section.success.desktop {
+        margin-top: 20px;
         display: none;
     }
     .success .title {
         font-size: 13px;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
+    }
+    section.success.mobile {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    section.success.mobile .block {
+        position: relative;
+    }
+    section.success.mobile .lines {
+        margin-top: 40px;
+        position: relative;
+    }
+    section.success.mobile .line {
+        position: absolute;
+        bottom: 5px;
+        height: 3px;
+        width: 100%;
+    }
+    .success.mobile .block .success-card h3 {
+        font-size: 8px;
+        font-weight: 400;
+        width: 100%;
+    }
+    .success.mobile .block .success-card p {
+        font-size: 8px;
+        text-align: end;
+        line-height: 7px;
+        color: #707070CC;
+    }
+
+    .success.mobile .block .lines .arrow .right {
+        width: 10px;
+    }
+    .success.mobile .block .lines .arrow {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0;
+        width: 85%;
+    }
+    .success.mobile .block .lines .number {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -7px;
+        width: 90%;
+    }
+    .success.mobile .block .lines .number h4 {
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        background: #A60FAD;
+        border-radius: 50%;
+        max-width: 22px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 22px;
+        height: 100%;
+        padding: 10px 10px;
+    }
+    .success.mobile .block .success-cards1 {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 90px;
+    }
+    .success.mobile .block .success-cards1 .success-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 90px;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .success.mobile .block .success-cards1 .success-card.large {
+        max-width: 100px;
+        padding-left: 20px;
+    }
+    .success.mobile .block.img {
+
+    }
+    .success.mobile .block.img .lines .number img {
+        width: 60px;
+    }
+    .success.mobile .block.img .lines .arrow {
+        width: 80%;
+        margin-left: 0;
+    }
+    .success.mobile .block.img .lines .number {
+        width: 90%;
+        right: 50%;
+        transform: translateX(-45%);
     }
 }

@@ -46,3 +46,43 @@ section.partnership {
 .communication .partnership-items .left-partnership .item-partnership img{
     width: 150px;
 }
+@media (max-width: 500px) {
+    section.partnership {
+        margin-top: 12px;
+    }
+    .partnership .title-partnership,
+    .communication .title-communication {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .partnership .description-partnership-head {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .partnership .partnership-items,
+    .communication .partnership-items {
+        gap: 20px;
+    }
+    .partnership .partnership-items .left-partnership,
+    .communication .partnership-items .left-partnership {
+        width: 50%;
+        display: flex;
+    }
+    .partnership .partnership-items .left-partnership .item-partnership,
+    .communication .partnership-items .left-partnership .item-partnership {
+        max-width: 150px;
+        gap: 10px;
+    }
+    .partnership .partnership-items .left-partnership .item-partnership p,
+    .communication .partnership-items .left-partnership .item-partnership p {
+        font-size: 9px;
+    }
+    .partnership .partnership-items .left-partnership .item-partnership img,
+    .communication .partnership-items .left-partnership .item-partnership img {
+        width: 30px;
+    }
+    .partnership .partnership-items .right-partnership img,
+    .communication .partnership-items .right-partnership img {
+        max-width: 90%;
+    }
+}

@@ -1,4 +1,4 @@
-<section class="footer">
+<section class="footer" id="footer">
     <h1 class="title-footer">ОСТАВИТЬ ЗАЯВКУ</h1>
     <div class="content-footer">
         <div class="container">

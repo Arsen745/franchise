@@ -17,7 +17,7 @@ section.format {
     max-width: 450px;
 }
 .format .formats .format-card img {
-    max-width: 450px;
+    max-width: 460px;
     margin-bottom: 30px;
 }
 .format .formats .format-card .format-description {
@@ -25,7 +25,7 @@ section.format {
 }
 .format .formats .format-card .format-description h4 {
     color: #A2D23F;
-    font-size: 35px;
+    font-size: 34px;
     font-weight: 600;
 }
 .format .formats .format-card .format-description p {

@@ -117,5 +117,49 @@ section.footer {
     font-weight: 700;
     margin-left: 30px;
 }
+@media (max-width: 500px) {
+    section.footer {
+        margin-top: 20px;
+    }
+    .footer .content-footer {
+        padding: 30px 0;
+    }
+    .footer .title-footer {
+        font-size: 10px;
+        margin-bottom: 14px;
+    }
+    .footer .content-footer .form input[type="text"] {
+        height: 37px;
+        padding: 10px 20px;
+        font-size: 10px;
+        width: 100%;
+        border: 1px solid white
+    }
+    .footer .content-footer img {
+        display: none;
+    }
+    .footer .content-footer .form .check input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    .footer .content-footer .form .check label {
+        font-size: 12px;
+    }
+    .footer .content-footer .form .btn-description button {
+        padding: 12px 0;
+        font-size: 15px;
+    }
+    .footer .content-footer .form .btn-description .description-footer {
+        font-size: 12px;
+    }
+    .footer .content-footer .form .btn-description .email {
+        font-size: 13px;
+    }
+    .footer .content-footer .form {
+        gap: 20px;
+    }
+
+}
 
 

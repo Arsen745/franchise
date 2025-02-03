@@ -43,18 +43,19 @@ section.about {
     .cards {
         display: flex;
         gap: 10px;
+        flex-direction: column;
     }
     .cards .card {
-        padding: 5px;
+        padding: 10px;
         gap: 24px;
         border-radius: 5px;
     }
     .cards .card p {
-        font-size: 10px;
-        line-height: 11px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .cards .card img {
-        width: 52px;
+        width: 100px;
     }
 }
 

@@ -50,10 +50,12 @@ section.reasons {
         margin-bottom: 10px;
     }
     .reasons .cards-reasons {
-        gap: 10px;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
     }
     .reasons .cards-reasons .card-reasons {
-        max-width: 100px;
+        max-width: 100%;
         padding: 5px 8px;
     }
     .reasons .cards-reasons .card-reasons img {
@@ -66,12 +68,12 @@ section.reasons {
         width: 60px;
     }
     .reasons .cards-reasons .card-reasons .title-card {
-        font-size: 11px;
+        font-size: 16px;
         line-height: 13px;
         margin-bottom: 5px;
         font-weight: 600;
     }
     .reasons .cards-reasons .card-reasons .description {
-        font-size: 7px;
+        font-size: 14px;
     }
 }

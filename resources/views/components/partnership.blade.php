@@ -47,19 +47,19 @@
         <div class="left-partnership">
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership1.png') }}" alt="">
-                <p class="description-partnership">Качественный<br>сервис</p>
+                <p class="description-partnership">Своя база <br>уникальных <br>пользователей</p>
             </div>
             <div class="item-partnership">
-                <img src="{{ asset('assets/partnership/partnership2.png') }}" alt="">
-                <p class="description-partnership">Вовлечение во<br>все процессы</p>
+                <img src="{{ asset('assets/partnership/partnership5.png') }}" alt="">
+                <p class="description-partnership">Система <br>электронного <br>документооборота</p>
             </div>
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership3.png') }}" alt="">
-                <p class="description-partnership">Выполнение<br>планов продаж</p>
+                <p class="description-partnership">Сервис тайных <br>покупателей</p>
             </div>
             <div class="item-partnership">
-                <img src="{{ asset('assets/partnership/partnership4.png') }}" alt="">
-                <p class="description-partnership">Своевременное<br>оформление заявок</p>
+                <img src="{{ asset('assets/partnership/partnership8.png') }}" alt="">
+                <p class="description-partnership">Персональный <br>менеджер</p>
             </div>
         </div>
         <div class="right-partnership">
