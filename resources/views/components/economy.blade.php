@@ -4,36 +4,40 @@
     <h1 class="title-section">РАБОТА С ПЕРСОНАЛОМ</h1>
     <div class="person">
         <div class="left">
-            <div class="card-person">
-                <div class="title-person">
-                    <h1>Welcome- <br>тренинги</h1>
+            <div class="top">
+                <div class="card-person">
+                    <div class="title-person">
+                        <h1>Welcome- <br>тренинги</h1>
+                    </div>
+                    <div class="description-person">
+                        <p>Для всех сотрудников разработанный welcome-тренинги, которые помогут адаптироваться в самые короткие сроки и стать максимально эффективным сотрудником.</p>
+                    </div>
                 </div>
-                <div class="description-person">
-                    <p>Для всех сотрудников разработанный welcome-тренинги, которые помогут адаптироваться в самые короткие сроки и стать максимально эффективным сотрудником.</p>
-                </div>
-            </div>
-            <div class="card-person">
-                <div class="title-person">
-                    <h1>Онлайн <br>обучение</h1>
-                </div>
-                <div class="description-person">
-                    <p>Кроме оффлайн программ обучения сотрудникам открыт доступ к различным онлайн-программам и обучающим платформам.</p>
-                </div>
-            </div>
-            <div class="card-person">
-                <div class="title-person">
-                    <h1>Школа <br>бариста</h1>
-                </div>
-                <div class="description-person">
-                    <p>Мы гарантируем качество кофе в наших магазинах и для бариста у нас имеется школа обучения, где их научат работать с оборудованием и нашей кофейной смесью.</p>
+                <div class="card-person">
+                    <div class="title-person">
+                        <h1>Онлайн <br>обучение</h1>
+                    </div>
+                    <div class="description-person">
+                        <p>Кроме оффлайн программ обучения сотрудникам открыт доступ к различным онлайн-программам и обучающим платформам.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card-person">
-                <div class="title-person">
-                    <h1>Программа <br>наставничества</h1>
+            <div class="bottom">
+                <div class="card-person">
+                    <div class="title-person">
+                        <h1>Школа <br>бариста</h1>
+                    </div>
+                    <div class="description-person">
+                        <p>Мы гарантируем качество кофе в наших магазинах и для бариста у нас имеется школа обучения, где их научат работать с оборудованием и нашей кофейной смесью.</p>
+                    </div>
                 </div>
-                <div class="description-person">
-                    <p>После welcome-тренинга и базового обучения каждый новый сотрудник прикрепляется к наставнику, чтобы ещё более детально освоить новую профессию.</p>
+                <div class="card-person">
+                    <div class="title-person">
+                        <h1>Программа <br>наставничества</h1>
+                    </div>
+                    <div class="description-person">
+                        <p>После welcome-тренинга и базового обучения каждый новый сотрудник прикрепляется к наставнику, чтобы ещё более детально освоить новую профессию.</p>
+                    </div>
                 </div>
             </div>
         </div>

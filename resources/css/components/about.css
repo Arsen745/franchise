@@ -32,30 +32,49 @@ section.about {
     font-weight: 400;
     line-height: 30px;
 }
+.about .button-about {
+    display: none;
+}
+.about .swiper {
+    display: none;
+}
 @media (max-width: 500px) {
     section.about {
         margin-top: 11px;
+        position: relative;
+    }
+    .cards.desktop {
+        display: none;
+    }
+    .about .swiper {
+        display: block;
+        position: static;
     }
     .title h1 {
-        font-size: 13px;
+        font-size: 24px;
         margin-bottom: 10px;
-    }
-    .cards {
-        display: flex;
-        gap: 10px;
-        flex-direction: column;
     }
     .cards .card {
         padding: 10px;
         gap: 24px;
-        border-radius: 5px;
+        border-radius: 16px;
+        max-width: 100%;
+        min-height: 250px;
     }
     .cards .card p {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 18px;
+        font-weight: 400;
     }
     .cards .card img {
         width: 100px;
+    }
+    .about .button-about {
+        display: block;
+        position: absolute;
+        right: 30px;
+        bottom: -20px;
+        z-index: 10;
     }
 }
 
