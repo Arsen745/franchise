@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    new Swiper(".mySwiperAbout", {
+    new Swiper(".mySwiperPartnership", {
+        direction: "vertical",
         slidesPerView: 1,
-        spaceBetween: 10,
         loop: true,
         navigation: {
-            nextEl: ".button-about",
+            nextEl: ".button-partnership",
         },
         pagination: {
             el: ".swiper-pagination",

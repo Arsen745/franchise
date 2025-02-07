@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
-    new Swiper(".mySwiperAbout", {
-        slidesPerView: 1,
+    new Swiper(".mySwiperFormat", {
+        slidesPerView: 2.3,
         spaceBetween: 10,
         loop: true,
         navigation: {
-            nextEl: ".button-about",
+            nextEl: ".button-format",
         },
         pagination: {
             el: ".swiper-pagination",

@@ -84,22 +84,6 @@
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        new Swiper(".mySwiperReasons", {
-            slidesPerView: 2,
-            spaceBetween: 10,
-            loop: true,
-            navigation: {
-                nextEl: ".button-reasons",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    });
-</script>
 @push('scripts')
     @Vite(['resources/css/components/reasons.css'])
     @Vite(['resources/js/components/reasons.js'])

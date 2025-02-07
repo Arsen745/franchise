@@ -102,40 +102,54 @@ section.model {
     font-size: 25px;
     margin-top: 20px;
 }
+.format .formats.mobile {
+    display: none;
+}
+.finance .cards-finance.mobile {
+    display: none;
+}
 @media (max-width: 500px) {
     section.format,
     section.model {
-        margin-top: 11px;
+        margin-top: 50px;
     }
     .format .format-title,
     .finance .title-finance,
     .model h1.title-model {
-        font-size: 10px;
+        font-size: 24px;
         margin-bottom: 12px;
     }
+    /*Format block*/
+    .format .formats.desktop {
+        display: none;
+    }
+    .format .formats.mobile {
+        display: block;
+    }
     .format .formats .format-card {
-        max-width: 100px;
+        max-width: 150px;
     }
     .format .formats .format-card img {
-        max-width: 100px;
+        max-width: 100%;
         margin-bottom: 6px;
     }
     .format .formats .format-card .format-description h4 {
-        font-size: 8px;
+        font-size: 13px;
     }
     .format .formats .format-card .format-description p {
-        font-size: 8px;
+        font-size: 13px;
     }
+    /*Model block*/
     .model .descriptions-model p {
-        font-size: 8px;
-        margin-bottom: 8px;
+        font-size: 15px;
+        margin-bottom: 10px;
     }
     .model .descriptions-model h4.people {
-        font-size: 9px;
+        font-size: 15px;
         margin-bottom: 10px;
     }
     .model .descriptions-model h4.title-table {
-        font-size: 8px;
+        font-size: 15px;
     }
     .model .table {
         margin-top: 10px;
@@ -143,13 +157,31 @@ section.model {
         border-radius: 10px;
     }
     .model .table h2.table-text {
-        font-size: 8px;
+        font-size: 13px;
     }
+    /*Finance block*/
     section.finance {
-        margin-top: 12px;
+        margin-top: 50px;
+    }
+    .finance .cards-finance.desktop {
+        display: none;
+    }
+    .finance .cards-finance.mobile {
+        display: block;
+        position: relative;
+    }
+    .finance .cards-finance.mobile .button-finance {
+        position: absolute;
+        z-index: 10;
+        bottom: -20px;
+        right: 30px;
+    }
+    .finance .cards-finance.mobile .button-finance img {
+        width: 30px;
     }
     .finance .cards-finance .card-finance {
         width: 100%;
+        height: 200px;
         border: 1px solid #A60FAD;
         border-radius: 5px;
         padding: 6px;
@@ -159,11 +191,16 @@ section.model {
         gap: 5px;
     }
     .finance .cards-finance .card-finance h1 {
-        font-size: 9px;
+        font-size: 19px;
     }
     .finance .cards-finance .card-finance p {
-        font-size: 7px;
+        font-size: 15px;
         margin-top: 7px;
     }
 
+}
+@media (max-width: 380px) {
+    .finance .cards-finance .card-finance {
+        height: 250px;
+    }
 }

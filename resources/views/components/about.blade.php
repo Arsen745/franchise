@@ -39,20 +39,6 @@
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        new Swiper(".mySwiperAbout", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            navigation: {
-                nextEl: ".button-about",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    });
 </script>
 @push('scripts')
     @Vite(['resources/css/components/about.css'])

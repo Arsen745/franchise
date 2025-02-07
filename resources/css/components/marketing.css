@@ -39,31 +39,45 @@ section.marketing {
 }
 @media (max-width: 500px) {
     section.marketing {
-        margin-top: 14px;
+        margin-top: 40px;
     }
     .marketing .title {
-        font-size: 10px;
+        font-size: 24px;
         margin-bottom: 10px;
     }
     .marketing .description {
-        font-size: 10px;
+        font-size: 16px;
         margin-bottom: 30px;
+    }
+    .marketing .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
     }
     .marketing .items .left,
     .marketing .items .right {
         gap: 20px;
+        align-items: center;
     }
     .marketing .items .left .item,
     .marketing .items .right .item {
-        gap: 6px;
+        justify-content: space-evenly;
+        gap: 30px;
+        width: 80%;
     }
     .marketing .items .left .item img,
     .marketing .items .right .item img {
-        width: 30px;
+        width: 60px;
+    }
+    .marketing .items .left .item .text-market,
+    .marketing .items .right .item .text-market {
+        width: 150px;
     }
     .marketing .items .left .item h1,
     .marketing .items .right .item h1 {
-        font-size: 10px;
+        font-size: 17px;
+        text-align: start;
     }
 
 }
