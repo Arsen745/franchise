@@ -24,6 +24,7 @@ section.footer {
     align-items: flex-start;
     gap: 40px;
 }
+.footer .content-footer .form input[type="email"],
 .footer .content-footer .form input[type="text"] {
     border: 2px solid #FFFFFF;
     border-radius: 110px;
@@ -37,6 +38,7 @@ section.footer {
     font-size: 40px;
     font-weight: 400;
 }
+.footer .content-footer .form input[type="email"]::placeholder,
 .footer .content-footer .form input[type="text"]::placeholder {
     color: white;
     font-weight: 400;
@@ -128,6 +130,7 @@ section.footer {
         font-size: 10px;
         margin-bottom: 14px;
     }
+    .footer .content-footer .form input[type="email"],
     .footer .content-footer .form input[type="text"] {
         height: 37px;
         padding: 10px 20px;

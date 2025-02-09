@@ -46,36 +46,43 @@ section.partnership {
 .communication .partnership-items .left-partnership .item-partnership img{
     width: 150px;
 }
+.partnership .partnership-items .left-partnership.mobile {
+    display: none;
+}
 @media (max-width: 500px) {
     section.partnership {
-        margin-top: 12px;
+        margin-top: 30px;
     }
     .partnership .title-partnership,
     .communication .title-communication {
-        font-size: 10px;
+        font-size: 24px;
         margin-bottom: 12px;
     }
     .partnership .description-partnership-head {
-        font-size: 10px;
+        font-size: 15px;
         margin-bottom: 12px;
     }
     .partnership .partnership-items,
     .communication .partnership-items {
-        gap: 20px;
+        justify-content: space-between;
+        gap: 10px;
     }
     .partnership .partnership-items .left-partnership,
     .communication .partnership-items .left-partnership {
-        width: 50%;
+        width: 80%;
         display: flex;
     }
-    .partnership .partnership-items .left-partnership .item-partnership,
+    .communication .partnership-items.franchise {
+        flex-direction: row-reverse;
+    }
+    .partnership .partnership-items .left-partnership.mobile .item-partnership,
     .communication .partnership-items .left-partnership .item-partnership {
-        max-width: 150px;
+        width: 100%;
         gap: 10px;
     }
     .partnership .partnership-items .left-partnership .item-partnership p,
     .communication .partnership-items .left-partnership .item-partnership p {
-        font-size: 9px;
+        font-size: 12px;
     }
     .partnership .partnership-items .left-partnership .item-partnership img,
     .communication .partnership-items .left-partnership .item-partnership img {
@@ -83,6 +90,61 @@ section.partnership {
     }
     .partnership .partnership-items .right-partnership img,
     .communication .partnership-items .right-partnership img {
-        max-width: 90%;
+        max-width: 100%;
+    }
+    .partnership .partnership-items .left-partnership.desktop {
+        display: none;
+    }
+    .partnership .partnership-items .left-partnership.mobile {
+        display: block;
+        position: relative;
+    }
+    .partnership .partnership-items .left-partnership.mobile .button-partnership {
+        position: absolute;
+        z-index: 10;
+        bottom: -40px;
+        left: 40px;
+    }
+    .partnership .partnership-items .left-partnership.mobile .button-partnership img {
+        width: 30px;
+    }
+    .partnership .partnership-items .left-partnership.mobile .swiper {
+        height: 340px;
+    }
+    .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+    }
+    .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper .top,
+    .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .partnership .partnership-items .left-partnership.mobile .item-partnership {
+        height: 40px;
+        width: 130px;
+    }
+}
+@media (max-width: 380px) {
+    .partnership .partnership-items .left-partnership.mobile .swiper {
+        height: 300px;
+    }
+    .partnership .partnership-items .left-partnership.mobile .item-partnership {
+        width: 120px;
+    }
+    .partnership .partnership-items .left-partnership .item-partnership p,
+    .communication .partnership-items .left-partnership .item-partnership p {
+        font-size: 11px;
+    }
+    .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper {
+        gap: 5px
+    }
+}
+@media (max-width: 330px) {
+    .partnership .partnership-items .left-partnership.mobile .swiper {
+        height: 250px;
     }
 }
