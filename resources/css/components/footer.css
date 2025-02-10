@@ -119,6 +119,18 @@ section.footer {
     font-weight: 700;
     margin-left: 30px;
 }
+@media (max-width: 1350px) {
+    .footer .content-footer img {
+        width: 400px;
+    }
+    .footer .content-footer .form input[type="email"],
+    .footer .content-footer .form input[type="text"] {
+        height: 60px;
+        padding: 20px 30px;
+        font-size: 20px;
+        max-width: 600px;
+    }
+}
 @media (max-width: 500px) {
     section.footer {
         margin-top: 20px;

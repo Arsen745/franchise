@@ -108,6 +108,27 @@ section.model {
 .finance .cards-finance.mobile {
     display: none;
 }
+@media (max-width: 1350px) {
+    .format .formats .format-card {
+        max-width: 300px;
+    }
+    .format .formats .format-card img {
+        max-width: 300px;
+    }
+    .finance .cards-finance {
+        gap: 10px;
+    }
+    .finance .cards-finance .card-finance {
+        padding: 20px;
+        max-width: 300px;
+    }
+    .finance .cards-finance .card-finance h1 {
+        font-size: 30px;
+    }
+    .finance .cards-finance .card-finance p {
+        font-size: 20px;
+    }
+}
 @media (max-width: 500px) {
     section.format,
     section.model {

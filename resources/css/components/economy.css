@@ -70,6 +70,31 @@ section.economy {
 .economy .person .left.swiper {
     display: none;
 }
+@media (max-width: 1350px) {
+    .economy .person .right img,
+    .economy .study .right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .economy .person .left,
+    .economy .study .left {
+        width: 60%;
+    }
+    .economy .person .left .card-person,
+    .economy .study .left .card-person {
+        max-width: 300px;
+        padding: 20px;
+    }
+    .economy .person .left .card-person .title-person h1,
+    .economy .study .left .card-person .title-person h1{
+        font-size: 35px;
+    }
+    .economy .person,
+    .economy .study {
+        gap: 20px;
+    }
+}
 @media (max-width: 500px) {
     .economy .title {
         font-size: 24px;

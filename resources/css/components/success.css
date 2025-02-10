@@ -95,6 +95,9 @@ section.success.mobile {
 section.success.mobile {
     display: none;
 }
+@media (max-width: 1350px) {
+
+}
 @media (max-width: 500px) {
     section.success {
         margin-top: 20px;
