@@ -102,7 +102,7 @@ section.partnership {
     .partnership .partnership-items .left-partnership.mobile .button-partnership {
         position: absolute;
         z-index: 10;
-        bottom: -40px;
+        bottom: -50px;
         left: 40px;
     }
     .partnership .partnership-items .left-partnership.mobile .button-partnership img {

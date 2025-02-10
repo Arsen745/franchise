@@ -21,6 +21,7 @@ section.success.mobile {
     position: absolute;
     top: 38%;
     width: 100%;
+    height: 15px;
 }
 
 .success .block1 .lines .arrow {
@@ -91,6 +92,9 @@ section.success.mobile {
 .success .block1 .success-card h3 {
     font-weight: 400;
 }
+section.success.mobile {
+    display: none;
+}
 @media (max-width: 500px) {
     section.success {
         margin-top: 20px;
@@ -100,113 +104,98 @@ section.success.mobile {
         display: none;
     }
     .success .title {
-        font-size: 13px;
-        margin-bottom: 1px;
+        font-size: 24px;
+        margin-bottom: 40px;
     }
     section.success.mobile {
         margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        border: 1px solid red;
+        display: block;
+        position: relative;
+    }
+    section.success.mobile .button-success {
+        position: absolute;
+        right: 30px;
+        bottom: -20px;
+        z-index: 10;
     }
     section.success.mobile .block {
+        width: 100%;
+    }
+    section.success.mobile .block .cards {
+        display: flex;
+        gap: 0;
         position: relative;
-        border: 1px solid red;
-        width: 100%;
     }
-    section.success.mobile .lines {
-        margin-top: 40px;
+    section.success.mobile .block .cards .card-success {
         position: relative;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 170px;
         width: 100%;
     }
-    section.success.mobile .line {
-        position: absolute;
-        bottom: 5px;
-        height: 3px;
-        width: 100%;
+    section.success.mobile .block .cards .card-success .line img {
+        max-width: 100%;
+        height: 7px;
     }
-    .success.mobile .block .success-card h3 {
-        font-size: 8px;
+    section.success.mobile .block .cards .card-success .number-arrow img {
+        width: 30px;
+    }
+    section.success.mobile .block .cards .card-success .number-arrow img.shop {
+        width: 120px;
+    }
+    section.success.mobile .block .cards .card-success .title-card-success {
+        padding-left: 30px;
+        height: 60px;
+    }
+    section.success.mobile .block .cards .card-success .title-card-success h3 {
+        font-size: 13px;
         font-weight: 400;
-        width: 100%;
     }
-    .success.mobile .block .success-card p {
-        font-size: 8px;
-        text-align: end;
-        line-height: 7px;
-        color: #707070CC;
-    }
-
-    .success.mobile .block .lines .arrow .right {
-        width: 10px;
-    }
-    .success.mobile .block .lines .arrow {
+    section.success.mobile .block .cards .card-success .number-arrow {
         display: flex;
-        justify-content: space-between;
-        margin-right: 0;
-        width: 85%;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .success.mobile .block .lines .number {
-        position: absolute;
-        display: flex;
-        justify-content: space-between;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -7px;
-        width: 90%;
+    section.success.mobile .block .cards .card-success .number-arrow.shop-image {
+        padding-left: 30px;
+        justify-content: start;
     }
-    .success.mobile .block .lines .number h4 {
+    section.success.mobile .block .cards .card-success .number-arrow h4 {
         color: white;
-        font-weight: 400;
-        font-size: 12px;
         background: #A60FAD;
+        font-weight: 400;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
-        max-width: 22px;
-        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        max-height: 22px;
-        height: 100%;
-        padding: 10px 10px;
+        font-size: 24px;
     }
-    .success.mobile .block .success-cards1 {
-        display: flex;
-        justify-content: space-between;
+    section.success.mobile .block .cards .card-success .line {
         position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 200px !important;
+        top: 93px;
+        right: 0;
         width: 100%;
-        border: 1px solid red;
+        z-index: -1;
     }
-    .success.mobile .block .success-cards1 .success-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        max-width: 90px;
-        width: 100%;
-        padding-left: 15px;
+    section.success.mobile .block .cards .card-success .date-success {
+        text-align: end;
+        padding-right: 30px;
+        height: 27px;
     }
-    .success.mobile .block .success-cards1 .success-card.large {
-        max-width: 100px;
-        padding-left: 20px;
+    section.success.mobile .block .cards .card-success .date-success p {
+        font-size: 13px;
+        color: #70707080;
+        font-weight: 600;
     }
-    .success.mobile .block.img {
+    section.success.mobile .block .cards .card-success .date-success p.none {
+        color: white;
+    }
 
-    }
-    .success.mobile .block .lines .number img {
-        width: 60px;
-    }
-    .success.mobile .block.img .lines .arrow {
-        width: 80%;
-        margin-left: 0;
-    }
-    .success.mobile .block.img .lines .number {
-        width: 90%;
-        right: 50%;
-        transform: translateX(-45%);
+    section.success.mobile .block .cards .card-success .date-success.large {
+        padding-right: 0;
     }
 }

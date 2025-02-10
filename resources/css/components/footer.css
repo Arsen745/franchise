@@ -124,10 +124,10 @@ section.footer {
         margin-top: 20px;
     }
     .footer .content-footer {
-        padding: 30px 0;
+        padding: 30px 40px;
     }
     .footer .title-footer {
-        font-size: 10px;
+        font-size: 24px;
         margin-bottom: 14px;
     }
     .footer .content-footer .form input[type="email"],

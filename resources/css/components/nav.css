@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .nav .container .nav-buttons {
     display: flex;
@@ -50,7 +50,7 @@
         display: none;
     }
     .nav .container {
-        padding: 15px 30px;
+        padding: 10px 30px;
     }
     .nav .modal {
         display: none;
