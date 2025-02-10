@@ -153,6 +153,9 @@ section.footer {
     .footer .content-footer img {
         display: none;
     }
+    .footer .content-footer .form .check {
+        gap: 10px;
+    }
     .footer .content-footer .form .check input[type="checkbox"] {
         width: 20px;
         height: 20px;
