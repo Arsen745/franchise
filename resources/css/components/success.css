@@ -2,7 +2,6 @@ section.success {
     margin-top: 80px;
 }
 section.success.mobile {
-    display: none;
 }
 .success .title {
     font-size: 48px;
@@ -109,13 +108,17 @@ section.success.mobile {
         display: flex;
         flex-direction: column;
         gap: 50px;
+        border: 1px solid red;
     }
     section.success.mobile .block {
         position: relative;
+        border: 1px solid red;
+        width: 100%;
     }
     section.success.mobile .lines {
         margin-top: 40px;
         position: relative;
+        width: 100%;
     }
     section.success.mobile .line {
         position: absolute;
@@ -175,7 +178,9 @@ section.success.mobile {
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        height: 90px;
+        height: 200px !important;
+        width: 100%;
+        border: 1px solid red;
     }
     .success.mobile .block .success-cards1 .success-card {
         display: flex;
@@ -192,7 +197,7 @@ section.success.mobile {
     .success.mobile .block.img {
 
     }
-    .success.mobile .block.img .lines .number img {
+    .success.mobile .block .lines .number img {
         width: 60px;
     }
     .success.mobile .block.img .lines .arrow {
