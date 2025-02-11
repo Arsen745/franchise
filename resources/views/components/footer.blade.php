@@ -2,12 +2,13 @@
     <h1 class="title-footer">ОСТАВИТЬ ЗАЯВКУ</h1>
     <div class="content-footer">
         <div class="container">
-            <form class="form">
-                <input type="text" placeholder="Как вас зовут?" required>
-                <input type="email" placeholder="Почта" required>
-                <input type="text" placeholder="+7" required>
+            <form class="form" action="{{ route('feedback.store') }}" method="POST">
+                @csrf
+                <input type="text" name="name" placeholder="Как вас зовут?" required>
+                <input type="email" name="email" placeholder="Почта" required>
+                <input type="text" name="phone_number" placeholder="+7" required>
                 <div class="check">
-                    <input type="checkbox" required>
+                    <input name="consent_pd" type="checkbox" required>
                     <label>Согласие обработки ПД</label>
                 </div>
                 <div class="btn-description">
