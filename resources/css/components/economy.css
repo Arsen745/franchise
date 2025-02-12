@@ -1,5 +1,6 @@
 section.economy {
 }
+
 .economy .title {
     font-size: 64px;
     color: #A60FAD;
@@ -7,18 +8,21 @@ section.economy {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .economy .description {
     font-size: 44px;
     color: #A60FAD;
     text-align: center;
     font-weight: 600;
 }
+
 .economy .description span {
     color: white;
     background: #A60FAD;
     padding: 17px 37px;
     border-radius: 50px;
 }
+
 .economy .title-section {
     color: #A2D23F;
     text-align: center;
@@ -27,21 +31,25 @@ section.economy {
     margin-top: 45px;
     margin-bottom: 50px;
 }
+
 .economy .person,
 .economy .study {
     display: flex;
 }
+
 .economy .person .left,
 .economy .study .left {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .economy .study .left .top,
 .economy .person .left .top {
     display: flex;
     gap: 30px;
 }
+
 .economy .study .left .bottom,
 .economy .person .left .bottom {
     display: flex;
@@ -55,21 +63,25 @@ section.economy {
     border-radius: 30px;
     max-width: 360px;
 }
+
 .economy .person .left .card-person .title-person h1,
-.economy .study .left .card-person .title-person h1{
+.economy .study .left .card-person .title-person h1 {
     font-size: 40px;
     color: #A60FAD;
     font-weight: 800;
     margin-bottom: 24px;
 }
+
 .economy .person .left .card-person .description-person p,
-.economy .study .left .card-person .description-person p{
+.economy .study .left .card-person .description-person p {
     font-size: 23px;
 }
+
 .economy .study .left.swiper,
 .economy .person .left.swiper {
     display: none;
 }
+
 @media (max-width: 1350px) {
     .economy .person .right img,
     .economy .study .right img {
@@ -77,30 +89,36 @@ section.economy {
         height: 100%;
         object-fit: cover;
     }
+
     .economy .person .left,
     .economy .study .left {
         width: 60%;
     }
+
     .economy .person .left .card-person,
     .economy .study .left .card-person {
         max-width: 300px;
         padding: 20px;
     }
+
     .economy .person .left .card-person .title-person h1,
-    .economy .study .left .card-person .title-person h1{
+    .economy .study .left .card-person .title-person h1 {
         font-size: 35px;
     }
+
     .economy .person,
     .economy .study {
         gap: 20px;
     }
 }
+
 @media (max-width: 500px) {
     .economy .title {
         font-size: 24px;
         margin-top: 60px;
         margin-bottom: 13px;
     }
+
     .button-study,
     .button-economy {
         display: block;
@@ -109,10 +127,12 @@ section.economy {
         bottom: -17px;
         right: 30px;
     }
+
     .button-study img,
     .button-economy img {
         width: 26px;
     }
+
     .economy .person,
     .economy .study {
         flex-direction: row-reverse;
@@ -120,33 +140,40 @@ section.economy {
         height: 100%;
         position: relative;
     }
+
     .economy .study .left.desktop,
     .economy .person .left.desktop {
         display: none;
     }
+
     .economy .study .left.swiper,
     .economy .person .left.swiper {
         display: block;
         position: static;
     }
+
     .economy .description {
         font-size: 13px;
         line-height: 20px;
     }
+
     .economy .description span {
         padding: 3px 7px;
     }
+
     .economy .title-section {
         margin-top: 30px;
         font-size: 24px;
         margin-bottom: 10px;
     }
+
     .economy .person .left,
     .economy .study .left {
         gap: 6px;
         flex-wrap: nowrap;
         width: 55%;
     }
+
     .economy .study .left .top,
     .economy .study .left .bottom,
     .economy .person .left .top,
@@ -158,6 +185,7 @@ section.economy {
         height: 100%;
         gap: 5px;
     }
+
     .economy .study .left .top .card-person,
     .economy .study .left .bottom .card-person,
     .economy .person .left .top .card-person,
@@ -170,21 +198,25 @@ section.economy {
         height: 100%;
 
     }
+
     .economy .person .left .card-person .title-person h1,
     .economy .study .left .card-person .title-person h1 {
         font-size: 16px;
         margin-bottom: 4px;
         line-height: 15px;
     }
+
     .economy .person .left .card-person .description-person p,
     .economy .study .left .card-person .description-person p {
         font-size: 10px;
         font-weight: 400;
     }
+
     .economy .person .right,
     .economy .study .right {
         width: 40%;
     }
+
     .economy .person .right img,
     .economy .study .right img {
         width: 100%;

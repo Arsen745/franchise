@@ -1,6 +1,7 @@
 section.reasons {
     margin-top: 87px;
 }
+
 .reasons .title {
     color: #A60FAD;
     text-align: center;
@@ -8,50 +9,61 @@ section.reasons {
     font-weight: 800;
     margin-bottom: 30px;
 }
+
 .reasons .cards-reasons {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
 }
+
 .reasons .cards-reasons .card-reasons {
     max-width: 330px;
     position: relative;
     height: 100%;
     padding: 40px 30px;
 }
+
 .reasons .cards-reasons .card-reasons img {
     position: absolute;
     z-index: -1;
     top: 0;
     width: 250px;
 }
+
 .reasons .cards-reasons .card-reasons img.one {
     width: 180px;
 }
+
 .reasons .cards-reasons .card-reasons img.four {
     width: 280px;
 }
+
 .reasons .cards-reasons .card-reasons .title-card {
     font-size: 37px;
     line-height: 40px;
     color: #A60FAD;
     margin-bottom: 51px;
 }
+
 .reasons .cards-reasons .card-reasons .description {
     font-size: 22px;
 }
+
 .reasons .button-reasons {
     display: none;
 }
+
 .mySwiperReasons {
     display: none;
 }
+
 @media (max-width: 500px) {
     section.reasons {
         margin-top: 30px;
         position: relative;
     }
+
     .reasons .button-reasons {
         display: block;
         position: absolute;
@@ -59,46 +71,57 @@ section.reasons {
         right: 30px;
         z-index: 10;
     }
+
     .reasons .title {
         font-size: 24px;
         margin-bottom: 20px;
     }
+
     .reasons .swiper {
         position: static;
         display: block;
     }
+
     .reasons .cards-reasons {
         flex-wrap: nowrap;
         justify-content: start;
         height: 250px;
         gap: 0;
     }
+
     .reasons .cards-reasons.desktop {
         display: none;
     }
+
     .reasons .cards-reasons::-webkit-scrollbar {
         width: 0;
     }
+
     .reasons .cards-reasons .card-reasons {
         max-width: 49%;
         padding: 5px 8px;
         min-width: 100px;
     }
+
     .reasons .cards-reasons .card-reasons img {
         width: 140px;
     }
+
     .reasons .cards-reasons .card-reasons img.one {
         width: 90px;
     }
+
     .reasons .cards-reasons .card-reasons img.four {
         width: 150px;
     }
+
     .reasons .cards-reasons .card-reasons .title-card {
         font-size: 24px;
         line-height: 20px;
         margin-bottom: 5px;
         font-weight: 600;
     }
+
     .reasons .cards-reasons .card-reasons .description {
         font-size: 16px;
         line-height: 16px;

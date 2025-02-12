@@ -97,8 +97,6 @@
             <img src="{{ asset('assets/person-image1.png') }}" alt="">
         </div>
     </div>
-
-
     <h1 class="title-section">ОБУЧЕНИЕ И НЕ ТОЛЬКО</h1>
     <div class="study">
         <div class="left desktop">
@@ -197,36 +195,7 @@
     </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        new Swiper(".mySwiperEconomy", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            navigation: {
-                nextEl: ".button-economy",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-        new Swiper(".mySwiperStudy", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            navigation: {
-                nextEl: ".button-study",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    });
-</script>
 @push('scripts')
     @Vite(['resources/css/components/economy.css'])
+    @Vite(['resources/js/components/economy.js'])
 @endpush

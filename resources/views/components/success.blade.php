@@ -281,7 +281,6 @@
         <img src="{{ asset('assets/button.png') }}" alt="">
     </div>
 </section>
-
 @push('scripts')
     @Vite(['resources/css/components/success.css'])
     @Vite(['resources/js/components/success.js'])

@@ -1,44 +1,54 @@
 section.format {
     margin-top: 60px;
 }
+
 .format .format-title,
-.finance .title-finance{
+.finance .title-finance {
     color: #A2D23F;
     font-size: 48px;
     text-align: center;
     font-weight: 800;
     margin-bottom: 55px;
 }
+
 .format .formats {
     display: flex;
     justify-content: space-between;
 }
+
 .format .formats .format-card {
     max-width: 450px;
 }
+
 .format .formats .format-card img {
     max-width: 460px;
     margin-bottom: 30px;
 }
+
 .format .formats .format-card .format-description {
     text-align: center;
 }
+
 .format .formats .format-card .format-description h4 {
     color: #A2D23F;
     font-size: 34px;
     font-weight: 600;
 }
+
 .format .formats .format-card .format-description p {
     color: #A60FAD;
     font-weight: 600;
     font-size: 35px;
 }
+
 section.finance {
     margin-top: 60px;
 }
+
 section.model {
     margin-top: 60px;
 }
+
 .model h1.title-model {
     color: #A2D23F;
     font-size: 45px;
@@ -46,32 +56,38 @@ section.model {
     font-weight: 800;
     margin-bottom: 50px;
 }
+
 .model .descriptions-model p {
     font-size: 45px;
     color: #A60FAD;
     font-weight: 600;
     margin-bottom: 30px;
 }
+
 .model .descriptions-model h4.people {
     font-size: 54px;
     font-weight: 600;
     color: #A2D23F;
     margin-bottom: 30px;
 }
+
 .model .descriptions-model h4.people span {
     color: #A60FAD;
 }
+
 .model .descriptions-model h4.title-table {
     color: #A60FAD;
     font-size: 45px;
     font-weight: 600;
 }
+
 .model .table {
     margin-top: 30px;
     background: #A60FAD21;
     border-radius: 50px;
     padding: 40px 60px;
 }
+
 .model .table h2.table-text {
     display: flex;
     justify-content: space-between;
@@ -80,126 +96,158 @@ section.model {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .model .table h2.table-text span {
     color: #A2D23F;
 }
+
 .finance .cards-finance {
     display: flex;
     justify-content: space-between;
 }
+
 .finance .cards-finance .card-finance {
     max-width: 340px;
     border: 4px solid #A60FAD;
     padding: 35px;
     border-radius: 30px;
 }
+
 .finance .cards-finance .card-finance h1 {
     font-size: 40px;
     color: #A60FAD;
     font-weight: 800;
 }
+
 .finance .cards-finance .card-finance p {
     font-size: 25px;
     margin-top: 20px;
 }
+
 .format .formats.mobile {
     display: none;
 }
+
 .finance .cards-finance.mobile {
     display: none;
 }
+
 @media (max-width: 1350px) {
     .format .formats .format-card {
         max-width: 300px;
     }
+
     .format .formats .format-card img {
         max-width: 300px;
     }
+
     .finance .cards-finance {
         gap: 10px;
     }
+
     .finance .cards-finance .card-finance {
         padding: 20px;
         max-width: 300px;
     }
+
     .finance .cards-finance .card-finance h1 {
         font-size: 30px;
     }
+
     .finance .cards-finance .card-finance p {
         font-size: 20px;
     }
 }
+
 @media (max-width: 500px) {
     section.format,
     section.model {
         margin-top: 50px;
     }
+
     .format .format-title,
     .finance .title-finance,
     .model h1.title-model {
         font-size: 24px;
         margin-bottom: 12px;
     }
+
     /*Format block*/
     .format .formats.desktop {
         display: none;
     }
+
     .format .formats.mobile {
         display: block;
     }
+
     .format .formats .format-card {
         max-width: 150px;
     }
+
     .format .formats .format-card img {
         max-width: 100%;
         margin-bottom: 6px;
     }
+
     .format .formats .format-card .format-description h4 {
         font-size: 13px;
     }
+
     .format .formats .format-card .format-description p {
         font-size: 13px;
     }
+
     /*Model block*/
     .model .descriptions-model p {
         font-size: 15px;
         margin-bottom: 10px;
     }
+
     .model .descriptions-model h4.people {
         font-size: 15px;
         margin-bottom: 10px;
     }
+
     .model .descriptions-model h4.title-table {
         font-size: 15px;
     }
+
     .model .table {
         margin-top: 10px;
         padding: 8px 12px;
         border-radius: 10px;
     }
+
     .model .table h2.table-text {
         font-size: 13px;
     }
+
     /*Finance block*/
     section.finance {
         margin-top: 50px;
     }
+
     .finance .cards-finance.desktop {
         display: none;
     }
+
     .finance .cards-finance.mobile {
         display: block;
         position: relative;
     }
+
     .finance .cards-finance.mobile .button-finance {
         position: absolute;
         z-index: 10;
         bottom: -20px;
         right: 30px;
     }
+
     .finance .cards-finance.mobile .button-finance img {
         width: 30px;
     }
+
     .finance .cards-finance .card-finance {
         width: 100%;
         height: 200px;
@@ -207,19 +255,23 @@ section.model {
         border-radius: 5px;
         padding: 6px;
     }
+
     .finance .cards-finance {
         justify-content: start;
         gap: 5px;
     }
+
     .finance .cards-finance .card-finance h1 {
         font-size: 19px;
     }
+
     .finance .cards-finance .card-finance p {
         font-size: 15px;
         margin-top: 7px;
     }
 
 }
+
 @media (max-width: 380px) {
     .finance .cards-finance .card-finance {
         height: 250px;

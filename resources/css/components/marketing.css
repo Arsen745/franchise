@@ -1,6 +1,7 @@
 section.marketing {
     margin-top: 60px;
 }
+
 .marketing .title {
     color: #A2D23F;
     font-size: 48px;
@@ -8,6 +9,7 @@ section.marketing {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .marketing .description {
     color: #A60FAD;
     font-size: 48px;
@@ -15,65 +17,78 @@ section.marketing {
     font-weight: 600;
     margin-bottom: 120px;
 }
+
 .marketing .items {
     display: flex;
     justify-content: space-between;
 }
+
 .marketing .items .left,
 .marketing .items .right {
     display: flex;
     flex-direction: column;
     gap: 70px;
 }
+
 .marketing .items .left .item,
 .marketing .items .right .item {
     display: flex;
     align-items: center;
     gap: 60px;
- }
+}
+
 .marketing .items .left .item h1,
 .marketing .items .right .item h1 {
     color: #A60FAD;
     font-size: 40px;
     font-weight: 800;
 }
+
 @media (max-width: 500px) {
     section.marketing {
         margin-top: 40px;
     }
+
     .marketing .title {
         font-size: 24px;
         margin-bottom: 10px;
     }
+
     .marketing .description {
         font-size: 16px;
         margin-bottom: 30px;
     }
+
     .marketing .items {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 20px;
     }
+
     .marketing .items .left,
     .marketing .items .right {
         gap: 20px;
         align-items: center;
     }
+
     .marketing .items .left .item,
     .marketing .items .right .item {
         justify-content: space-evenly;
         gap: 30px;
         width: 80%;
     }
+
     .marketing .items .left .item img,
     .marketing .items .right .item img {
         width: 60px;
     }
+
     .marketing .items .left .item .text-market,
     .marketing .items .right .item .text-market {
         width: 150px;
     }
+
     .marketing .items .left .item h1,
     .marketing .items .right .item h1 {
         font-size: 17px;

@@ -1,6 +1,7 @@
 section.corporate {
     margin-top: 60px;
 }
+
 .corporate .title {
     color: #A2D23F;
     font-size: 46px;
@@ -8,77 +9,95 @@ section.corporate {
     font-weight: 800;
     margin-bottom: 60px;
 }
+
 .corporate .top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 12px;
 }
+
 .corporate .top img {
     width: 49.7%;
 }
+
 .corporate .bottom {
     display: flex;
     justify-content: space-between;
 }
+
 .corporate .bottom img {
     width: 59.3%;
 }
+
 .corporate .bottom .image-half {
     width: 40%;
 }
+
 .corporate .corporate-description {
     border: 4px solid #A60FAD;
     border-radius: 30px;
     margin-top: 60px;
     padding: 60px;
 }
+
 .corporate .corporate-description p {
     color: #A60FAD;
     font-size: 40px;
     font-weight: 800;
 }
+
 .corporate .mobile {
     display: none;
 }
+
 @media (max-width: 500px) {
     section.corporate {
         margin-top: 40px;
     }
+
     .corporate .desktop {
         display: none;
     }
+
     .corporate .mobile {
         display: block;
         position: relative;
     }
+
     .corporate .top {
         margin-bottom: 4px;
     }
+
     .corporate .mobile .swiper .swiper-wrapper img {
         width: 100%;
         object-fit: cover;
         height: 200px;
     }
+
     .corporate .title {
         font-size: 24px;
         margin-bottom: 10px;
     }
+
     .corporate .corporate-description {
         margin-top: 14px;
         padding: 13px;
         border-radius: 6px;
         border: 1px solid #A60FAD;
     }
+
     .corporate .corporate-description p {
         font-size: 9px;
         font-weight: 600;
     }
+
     .corporate .mobile .button-corporate {
         position: absolute;
         right: 30px;
         bottom: -20px;
         z-index: 10;
     }
+
     .corporate .mobile .button-corporate img {
         width: 30px;
     }

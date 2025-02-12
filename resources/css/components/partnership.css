@@ -1,6 +1,7 @@
 section.partnership {
     margin-top: 60px;
 }
+
 .partnership .title-partnership,
 .communication .title-communication {
     color: #A2D23F;
@@ -9,6 +10,7 @@ section.partnership {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .partnership .description-partnership-head {
     color: #A60FAD;
     font-size: 40px;
@@ -16,6 +18,7 @@ section.partnership {
     font-weight: 600;
     margin-bottom: 60px;
 }
+
 .partnership .partnership-items,
 .communication .partnership-items {
     display: flex;
@@ -23,6 +26,7 @@ section.partnership {
     gap: 60px;
     margin-bottom: 60px;
 }
+
 .partnership .partnership-items .left-partnership,
 .communication .partnership-items .left-partnership {
     display: flex;
@@ -30,6 +34,7 @@ section.partnership {
     justify-content: space-between;
     width: 60%;
 }
+
 .partnership .partnership-items .left-partnership .item-partnership,
 .communication .partnership-items .left-partnership .item-partnership {
     display: flex;
@@ -38,84 +43,104 @@ section.partnership {
     width: 100%;
     gap: 30px
 }
+
 .partnership .partnership-items .left-partnership .item-partnership p,
-.communication .partnership-items .left-partnership .item-partnership p{
+.communication .partnership-items .left-partnership .item-partnership p {
     font-size: 26px;
 }
+
 .partnership .partnership-items .left-partnership .item-partnership img,
-.communication .partnership-items .left-partnership .item-partnership img{
+.communication .partnership-items .left-partnership .item-partnership img {
     width: 150px;
 }
+
 .partnership .partnership-items .left-partnership.mobile {
     display: none;
 }
+
 @media (max-width: 500px) {
     section.partnership {
         margin-top: 30px;
     }
+
     .partnership .title-partnership,
     .communication .title-communication {
         font-size: 24px;
         margin-bottom: 12px;
     }
+
     .partnership .description-partnership-head {
         font-size: 15px;
         margin-bottom: 12px;
     }
+
     .partnership .partnership-items,
     .communication .partnership-items {
         justify-content: space-between;
         gap: 10px;
     }
+
     .partnership .partnership-items .left-partnership,
     .communication .partnership-items .left-partnership {
         width: 80%;
         display: flex;
     }
+
     .communication .partnership-items.franchise {
         flex-direction: row-reverse;
     }
+
     .partnership .partnership-items .left-partnership.mobile .item-partnership,
     .communication .partnership-items .left-partnership .item-partnership {
         width: 100%;
         gap: 10px;
     }
+
     .partnership .partnership-items .left-partnership .item-partnership p,
     .communication .partnership-items .left-partnership .item-partnership p {
         font-size: 12px;
     }
+
     .partnership .partnership-items .left-partnership .item-partnership img,
     .communication .partnership-items .left-partnership .item-partnership img {
         width: 30px;
     }
+
     .partnership .partnership-items .right-partnership img,
     .communication .partnership-items .right-partnership img {
         max-width: 100%;
     }
+
     .partnership .partnership-items .left-partnership.desktop {
         display: none;
     }
+
     .partnership .partnership-items .left-partnership.mobile {
         display: block;
         position: relative;
     }
+
     .partnership .partnership-items .left-partnership.mobile .button-partnership {
         position: absolute;
         z-index: 10;
         bottom: -50px;
         left: 40px;
     }
+
     .partnership .partnership-items .left-partnership.mobile .button-partnership img {
         width: 30px;
     }
+
     .partnership .partnership-items .left-partnership.mobile .swiper {
         height: 340px;
     }
+
     .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper {
         display: flex;
         flex-direction: column;
         width: 100px;
     }
+
     .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper .top,
     .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper .bottom {
         display: flex;
@@ -123,26 +148,32 @@ section.partnership {
         gap: 10px;
         justify-content: space-between;
     }
+
     .partnership .partnership-items .left-partnership.mobile .item-partnership {
         height: 40px;
         width: 130px;
     }
 }
+
 @media (max-width: 380px) {
     .partnership .partnership-items .left-partnership.mobile .swiper {
         height: 300px;
     }
+
     .partnership .partnership-items .left-partnership.mobile .item-partnership {
         width: 120px;
     }
+
     .partnership .partnership-items .left-partnership .item-partnership p,
     .communication .partnership-items .left-partnership .item-partnership p {
         font-size: 11px;
     }
+
     .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper {
         gap: 5px
     }
 }
+
 @media (max-width: 330px) {
     .partnership .partnership-items .left-partnership.mobile .swiper {
         height: 250px;

@@ -25,6 +25,7 @@ export default defineConfig({
                 'resources/js/components/partnership.js',
                 'resources/js/components/reasons.js',
                 'resources/js/components/success.js',
+                'resources/js/components/economy.js',
             ],
             refresh: true,
         }),

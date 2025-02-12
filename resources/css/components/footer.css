@@ -1,16 +1,19 @@
 section.footer {
     margin-top: 100px;
 }
+
 .footer .content-footer {
     background: #A60FAD;
     padding: 80px 0;
     position: relative;
 }
+
 .footer .content-footer img {
     position: absolute;
     right: 0;
     top: 0;
 }
+
 .footer .title-footer {
     text-align: center;
     color: #A60FAD;
@@ -18,12 +21,14 @@ section.footer {
     font-weight: 800;
     margin-bottom: 80px;
 }
+
 .footer .content-footer .form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
 }
+
 .footer .content-footer .form input[type="email"],
 .footer .content-footer .form input[type="text"] {
     border: 2px solid #FFFFFF;
@@ -38,16 +43,19 @@ section.footer {
     font-size: 40px;
     font-weight: 400;
 }
+
 .footer .content-footer .form input[type="email"]::placeholder,
 .footer .content-footer .form input[type="text"]::placeholder {
     color: white;
     font-weight: 400;
 }
+
 .footer .content-footer .form .check {
     display: flex;
     gap: 30px;
     align-items: center;
 }
+
 .footer .content-footer .form .check input[type="checkbox"] {
     width: 62px;
     height: 62px;
@@ -69,6 +77,7 @@ section.footer {
     background: #A60FAD;
     border-radius: 15px;
 }
+
 .footer .content-footer .form .check input[type="checkbox"]:checked::after {
     content: "✔";
     font-size: 32px;
@@ -78,16 +87,19 @@ section.footer {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .footer .content-footer .form .check label {
     font-size: 35px;
     color: white;
     font-weight: 400;
 }
+
 .footer .content-footer .form .btn-description {
     display: flex;
     flex-direction: column;
     gap: 20px
 }
+
 .footer .content-footer .form .btn-description button {
     padding: 30px;
     font-size: 45px;
@@ -101,6 +113,7 @@ section.footer {
     width: 100%;
 
 }
+
 .footer .content-footer .form .btn-description .description-footer {
     color: white;
     font-size: 35px;
@@ -108,21 +121,25 @@ section.footer {
     width: 100%;
     font-weight: 400;
 }
+
 .footer .content-footer .form .btn-description .email {
     color: white;
     font-size: 35px;
     font-weight: 400;
 }
+
 .footer .content-footer .form .btn-description .email a {
     text-decoration: none;
     color: white;
     font-weight: 700;
     margin-left: 30px;
 }
+
 @media (max-width: 1350px) {
     .footer .content-footer img {
         width: 400px;
     }
+
     .footer .content-footer .form input[type="email"],
     .footer .content-footer .form input[type="text"] {
         height: 60px;
@@ -131,17 +148,21 @@ section.footer {
         max-width: 600px;
     }
 }
+
 @media (max-width: 500px) {
     section.footer {
         margin-top: 20px;
     }
+
     .footer .content-footer {
         padding: 30px 40px;
     }
+
     .footer .title-footer {
         font-size: 24px;
         margin-bottom: 14px;
     }
+
     .footer .content-footer .form input[type="email"],
     .footer .content-footer .form input[type="text"] {
         height: 37px;
@@ -150,30 +171,38 @@ section.footer {
         width: 100%;
         border: 1px solid white
     }
+
     .footer .content-footer img {
         display: none;
     }
+
     .footer .content-footer .form .check {
         gap: 10px;
     }
+
     .footer .content-footer .form .check input[type="checkbox"] {
         width: 20px;
         height: 20px;
         border-radius: 4px;
     }
+
     .footer .content-footer .form .check label {
         font-size: 12px;
     }
+
     .footer .content-footer .form .btn-description button {
         padding: 12px 0;
         font-size: 15px;
     }
+
     .footer .content-footer .form .btn-description .description-footer {
         font-size: 12px;
     }
+
     .footer .content-footer .form .btn-description .email {
         font-size: 13px;
     }
+
     .footer .content-footer .form {
         gap: 20px;
     }

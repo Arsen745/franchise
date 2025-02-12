@@ -27,5 +27,5 @@
 </nav>
 @push('scripts')
     @Vite(['resources/css/components/nav.css'])
-    @Vite(['resources/js/modal.js'])
+    @Vite(['resources/js/components/modal.js'])
 @endpush

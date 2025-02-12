@@ -4,16 +4,20 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreFeedBackRequest;
 use App\Models\FeedBack;
-use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
 
 class FeedBackController extends Controller
 {
-    public function store(StoreFeedBackRequest $request)
+    /**
+     * @param StoreFeedBackRequest $request
+     * @return RedirectResponse
+     */
+    public function store(StoreFeedBackRequest $request): RedirectResponse
     {
         $data = $request->validated();
 
         FeedBack::create($data);
 
-        return redirect()->with('success', 'Спасибо за вашу заявку! Мы скоро с вами свяжемся.');
+        return back()->with('success', 'Спасибо за вашу заявку! Мы скоро с вами свяжемся.');
     }
 }

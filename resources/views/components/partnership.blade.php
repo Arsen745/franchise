@@ -1,9 +1,10 @@
 {{--блок роль партнера--}}
 <section class="partnership container">
     <h1 class="title-partnership">РОЛЬ ПАРТНЕРА</h1>
-    <p class="description-partnership-head">Для успешной реализации проекта, запланированного развития и рентабильности проектов, мы ждём от партнёра:</p>
+    <p class="description-partnership-head">Для успешной реализации проекта, запланированного развития и рентабильности
+        проектов, мы ждём от партнёра:</p>
     <div class="partnership-items">
-         {{--Desktop--}}
+        {{--Desktop--}}
         <div class="left-partnership desktop">
             <div class="item-partnership">
                 <img src="{{ asset('assets/partnership/partnership1.png') }}" alt="">

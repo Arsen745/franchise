@@ -1,8 +1,10 @@
 section.success {
     margin-top: 80px;
 }
+
 section.success.mobile {
 }
+
 .success .title {
     font-size: 48px;
     font-weight: 800;
@@ -10,13 +12,16 @@ section.success.mobile {
     text-align: center;
     margin-bottom: 200px;
 }
+
 .success .block1 {
     position: relative;
     margin-bottom: 250px;
 }
+
 .success .block1 .lines {
     position: relative;
 }
+
 .success .block1 .lines .line {
     position: absolute;
     top: 38%;
@@ -29,9 +34,11 @@ section.success.mobile {
     justify-content: space-evenly;
     margin: auto;
 }
+
 .success .block1 .lines .arrow .right {
     width: 50px;
 }
+
 .success .block1 .lines .number {
     position: absolute;
     display: flex;
@@ -41,6 +48,7 @@ section.success.mobile {
     top: 0;
     width: 100%;
 }
+
 .success .block1 .lines .number2 {
     position: absolute;
     display: flex;
@@ -50,6 +58,7 @@ section.success.mobile {
     top: 0;
     width: 130%;
 }
+
 .success .block1 .lines .number h4 {
     color: white;
     font-weight: 400;
@@ -65,6 +74,7 @@ section.success.mobile {
     height: 100%;
     padding: 23px 16px;
 }
+
 .success .block1 .success-cards {
     display: flex;
     justify-content: space-between;
@@ -74,6 +84,7 @@ section.success.mobile {
     top: -160%;
     height: 300px;
 }
+
 .success .block1 .success-card {
     max-width: 150px;
     height: 250px;
@@ -82,6 +93,7 @@ section.success.mobile {
     justify-content: space-between;
     padding-left: 30px;
 }
+
 .success .block1 .success-card p {
     width: 100%;
     text-align: end;
@@ -89,46 +101,57 @@ section.success.mobile {
     font-weight: 600;
     color: #707070CC;
 }
+
 .success .block1 .success-card h3 {
     font-weight: 400;
 }
+
 section.success.mobile {
     display: none;
 }
+
 @media (max-width: 1350px) {
 
 }
+
 @media (max-width: 500px) {
     section.success {
         margin-top: 20px;
     }
+
     section.success.desktop {
         margin-top: 20px;
         display: none;
     }
+
     .success .title {
         font-size: 24px;
         margin-bottom: 40px;
     }
+
     section.success.mobile {
         margin-bottom: 30px;
         display: block;
         position: relative;
     }
+
     section.success.mobile .button-success {
         position: absolute;
         right: 30px;
         bottom: -20px;
         z-index: 10;
     }
+
     section.success.mobile .block {
         width: 100%;
     }
+
     section.success.mobile .block .cards {
         display: flex;
         gap: 0;
         position: relative;
     }
+
     section.success.mobile .block .cards .card-success {
         position: relative;
         height: 170px;
@@ -138,33 +161,41 @@ section.success.mobile {
         max-width: 170px;
         width: 100%;
     }
+
     section.success.mobile .block .cards .card-success .line img {
         max-width: 100%;
         height: 7px;
     }
+
     section.success.mobile .block .cards .card-success .number-arrow img {
         width: 30px;
     }
+
     section.success.mobile .block .cards .card-success .number-arrow img.shop {
         width: 120px;
     }
+
     section.success.mobile .block .cards .card-success .title-card-success {
         padding-left: 30px;
         height: 60px;
     }
+
     section.success.mobile .block .cards .card-success .title-card-success h3 {
         font-size: 13px;
         font-weight: 400;
     }
+
     section.success.mobile .block .cards .card-success .number-arrow {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
     }
+
     section.success.mobile .block .cards .card-success .number-arrow.shop-image {
         padding-left: 30px;
         justify-content: start;
     }
+
     section.success.mobile .block .cards .card-success .number-arrow h4 {
         color: white;
         background: #A60FAD;
@@ -177,6 +208,7 @@ section.success.mobile {
         justify-content: center;
         font-size: 24px;
     }
+
     section.success.mobile .block .cards .card-success .line {
         position: absolute;
         top: 93px;
@@ -184,16 +216,19 @@ section.success.mobile {
         width: 100%;
         z-index: -1;
     }
+
     section.success.mobile .block .cards .card-success .date-success {
         text-align: end;
         padding-right: 30px;
         height: 27px;
     }
+
     section.success.mobile .block .cards .card-success .date-success p {
         font-size: 13px;
         color: #70707080;
         font-weight: 600;
     }
+
     section.success.mobile .block .cards .card-success .date-success p.none {
         color: white;
     }

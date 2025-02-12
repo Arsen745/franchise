@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'Mazzard Soft M';
     src: url('../fonts/MazzardSoftM-Bold.otf') format('opentype');
@@ -20,6 +21,7 @@
     src: url('../fonts/MazzardSoftM-SemiBold.otf') format('opentype');
     font-weight: 600;
 }
+
 @font-face {
     font-family: 'Mazzard Soft M';
     src: url('../fonts/MazzardSoftM-Regular.otf') format('opentype');
@@ -33,17 +35,20 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 .container {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
+
 @media (max-width: 1350px) {
     .container {
         max-width: 1350px;
         padding: 0 5px;
     }
 }
+
 @media (max-width: 500px) {
     .container {
         max-width: 500px;
