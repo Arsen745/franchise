@@ -202,6 +202,9 @@ section.footer {
     .footer .content-footer .form .btn-description .email {
         font-size: 13px;
     }
+    .footer .content-footer .form .btn-description .email a {
+        margin-left: 10px;
+    }
 
     .footer .content-footer .form {
         gap: 20px;
