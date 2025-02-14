@@ -89,6 +89,9 @@ section.partnership {
     .communication .partnership-items.franchise {
         flex-direction: row-reverse;
     }
+    .partnership .partnership-items .right-partnership {
+        width: 120%;
+    }
 
     .partnership .partnership-items .left-partnership.mobile .item-partnership,
     .communication .partnership-items .left-partnership .item-partnership {
@@ -132,7 +135,7 @@ section.partnership {
     }
 
     .partnership .partnership-items .left-partnership.mobile .swiper {
-        height: 340px;
+        height: 270px;
     }
 
     .partnership .partnership-items .left-partnership.mobile .swiper .swiper-wrapper {
@@ -151,13 +154,13 @@ section.partnership {
 
     .partnership .partnership-items .left-partnership.mobile .item-partnership {
         height: 40px;
-        width: 130px;
+        width: 140px;
     }
 }
 
 @media (max-width: 380px) {
     .partnership .partnership-items .left-partnership.mobile .swiper {
-        height: 300px;
+        height: 260px;
     }
 
     .partnership .partnership-items .left-partnership.mobile .item-partnership {
@@ -176,6 +179,9 @@ section.partnership {
 
 @media (max-width: 330px) {
     .partnership .partnership-items .left-partnership.mobile .swiper {
-        height: 250px;
+        height: 200px;
+    }
+    .partnership .partnership-items .right-partnership {
+        width: 100%;
     }
 }

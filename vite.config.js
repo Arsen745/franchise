@@ -18,7 +18,7 @@ export default defineConfig({
                 'resources/css/components/reasons.css',
                 'resources/css/components/success.css',
                 'resources/js/app.js',
-                'resources/js/modal.js',
+                'resources/js/components/modal.js',
                 'resources/js/components/about.js',
                 'resources/js/components/corporate.js',
                 'resources/js/components/format.js',
