@@ -45,9 +45,9 @@
 
 @media (max-width: 500px) {
     .nav {
-        position: relative;
-        top: 10px;
+        position: static;
         margin-bottom: 20px;
+        margin-top: 10px;
     }
 
     .nav .container .burger {
